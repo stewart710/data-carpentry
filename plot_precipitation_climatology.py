@@ -50,7 +50,7 @@ def create_plot(clim, model_name, season, gridlines=False):
 
 
 def main(inargs):
-    """Run the program. I Love cats"""
+    """Run the program."""
 
     dset = xr.open_dataset(inargs.pr_file)
     
@@ -62,7 +62,7 @@ def main(inargs):
 
 
 if __name__ == '__main__':
-    description='Plot the precipitation climatology for a given season, with three month groups.'
+    description='Plot the precipitation climatology for a given season.'
     parser = argparse.ArgumentParser(description=description)
     
     parser.add_argument("pr_file", type=str, help="Precipitation data file")
