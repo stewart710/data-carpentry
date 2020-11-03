@@ -50,7 +50,7 @@ def create_plot(clim, model_name, season, gridlines=False):
 
 
 def main(inargs):
-    """Run the program."""
+    """Run the program. I Love cats"""
 
     dset = xr.open_dataset(inargs.pr_file)
     
